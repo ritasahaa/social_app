@@ -6,15 +6,15 @@ app.get('/', (req, res) => {
   res.send('Hello rita! get')
 })
 
-app.post('/', (req, res) => {
+app.post('/api/publish', (req, res) => {
   res.send('Hello rita! post')
 })
 
-app.put('/', (req, res) => {
+app.put('/api/update', (req, res) => {
   res.send('Hello rita! put')
 })
 
-app.delete('/', (req, res) => {
+app.delete('/api/remove', (req, res) => {
   res.send('Hello rita! delete')
 })
 
